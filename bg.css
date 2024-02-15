@@ -67,7 +67,8 @@ main {
 /* projects */
 
 /* added the style below to fix the bug */
-#project {
+#project, 
+#contact {
     overflow-x: hidden !important;
 }
 
