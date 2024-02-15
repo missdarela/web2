@@ -33,6 +33,7 @@ a:hover{
     background-color:white;
     color: black!important;
     z-index: 1;
+    margin-top: 0;
 }
 
 main{
@@ -228,7 +229,8 @@ input{
         margin-left:70px;
     }
     form{
-        margin-left: 250px;
+        width: 100%;
+        margin-left: 25%;
     }
     input{
         width:200px;
@@ -252,11 +254,12 @@ input{
         margin-left: 13px;
     }
     form{
-        margin-left: 100px;
+        width: 100%;
+        margin-left:0;
     }
     input{
         width:200px;
-        margin-left:25px;
+        /* margin-left:25px; */
        
     }
     #submit{
@@ -271,7 +274,7 @@ input{
 /* form 784 */
 @media screen and (max-width:784px) {
     form{
-        margin-left: 180px;
+        margin-left: 50px;
     }
     input{
         width:80%;
@@ -279,12 +282,12 @@ input{
         margin-top:18px;
     }
     #submit{
-        width: 80%;
+        width:80%;
     }
        
     .cunt{
-        width: 40%;
-        margin-left:250px;
+        width: 100%;
+        margin: 0 auto;
     }
     .foot1{
         margin-top:30px;
@@ -324,9 +327,14 @@ input{
     .text{
         margin-top: 25px;
     }
-    .arch-small{
+    #arch-small{
         font-size: 25px;
         text-align: center;
+        
+    }
+    .arch-img{
+        margin-top: 19px;
+        width: 100%!important;
     }
     h5.small{
         margin-top: 20px!important;
@@ -344,6 +352,6 @@ input{
     }
     .cunt{
         width: 100%;
-        margin-left: 23px;
+        margin: 0 auto;
     }
 }
